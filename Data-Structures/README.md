@@ -100,13 +100,16 @@ Traversal:
 - Navigation systems (nodes as locations, edges as paths).
 - Dependency graphs (task scheduling).
 
-Summary Table
-Data Structure	Access Time	Insert/Delete Time	Use Cases
-Array	O(1)	O(n)	Fixed-size collections
-Vector	O(1)	O(1)/O(n)	Dynamic-size collections
-Stack	O(1)	O(1)	Function calls, undo mechanisms
-Queue	O(1)	O(1)	Task scheduling, BFS traversal
-Map	O(log n) / O(1)	O(log n) / O(1)	Key-value lookups, caching
-Tree	O(log n)	O(log n)	Hierarchical data, search & sorting
-Graph	-	O(1) per edge	Networks, routing, dependencies
+## Summary Table
+
+| Data Structure   | Access Time       | Insert/Delete Time   | Use Cases                           |
+|------------------|-------------------|----------------------|-------------------------------------|
+| **Array**        | O(1)              | O(n)                 | Fixed-size collections              |
+| **Vector**       | O(1)              | O(1)/O(n)            | Dynamic-size collections            |
+| **Stack**        | O(1)              | O(1)                 | Function calls, undo mechanisms     |
+| **Queue**        | O(1)              | O(1)                 | Task scheduling, BFS traversal      |
+| **Map**          | O(log n) / O(1)   | O(log n) / O(1)      | Key-value lookups, caching          |
+| **Tree**         | O(log n)          | O(log n)             | Hierarchical data, search & sorting |
+| **Graph**        | -                 | O(1) per edge        | Networks, routing, dependencies     |
+
 
